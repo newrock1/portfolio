@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <meta charset="UTF-8">
+    <title>CROSSED TALENTS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <Link href="css/special.css" rel="stylesheet">
+
+</head>
+<body>
+
+ <div class="container">
+    <header class="page-header">
+        <h1 class="logoBox"><a href="index.html"><img class="logo"src="images/logo.jpg"
+                alt="ロゴ" > </a><span>
+            Crossed Talents　～交差する才能～</span></h1>
+
+    <nav>
+    <ul class="main-nav">
+        <li><a href="intro.html">INTRO</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="school.html">SCHOOL</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="hamburger" id="open_nav">
+    <img src="images/hamburger.png" alt="">
+
+</div>
+</div>
+
+<nav id="nav">
+    <div class="logo2">
+        <img src="images/logo.jpg" alt="">
+    </div>
+
+    <div class="botan">
+    <ul>
+        <li><a href="intro.html"><span>INTRO</span></a></li>
+        <li><a href="index.html"><span>HOME</span></a></li>
+        <li><a href="company.html"><span>COMPANY</span></a></li>
+        <li><a href="menu.html"><span>MENU</span></a></li>
+        <li><a href="contact.html"><span>CONTACT</span></a></li>
+        <li><a href="school.html"><span>SCHOOL</span></a></li>
+    </div>
+
+    </ul>
+    </nav>
+
+<div class="intro">
+<h2>WEB SITE概要</h2>
+
+<h3>1.  本WEBサイト設立目的</h3>
+<ul>
+    <li>フリーランスや副業の動画編集者とクライアントをマッチングさせるサイト（動画編集に特化）。</li>
+    <li>動画編集者（初心者）対象のスクール講座。</li>
+</ul>
+
+<h3>2.  ユーザーが求めていると思われる情報</h3>
+<ul>
+    <li>動画編集者：動画編集中級者以上対象の高単価の動画編集案件の受注。</li>
+    <li>クライアント：中級以上の動画編集者。</li>
+</ul>
+
+<h3>3.  ユーザーに当該サイトで何をして欲しいのか</h3>
+<ul>
+    <li>動画編集者（中、上級者）とクライアントをマッチングさせたい。</li>
+    <li>動画編集初心者を動画編集スクールに入校させたい。</li>
+</ul>
+
+<h3>4.  メインゴール</h3>
+<ul>
+    <li>動画編集者とクライアントを一組でも多くマッチングさせ、仲介手数料の売上を伸ばす。</li>
+    <li>動画編集希望者（初心者）をスクールに入校させ、売上を伸ばす。</li>
+</ul>
+
+<h3>5.  サブゴール</h3>
+<ul>
+    <li>双方に会員登録をしてもらう。</li>
+    <li>当該サイトのサービスの内容を知ってもらう。</li>
+    <li>サイトを見てもらう。</li>
+    <li>サービスをSNSで広めてもらう。</li>
+    <li>レビューを書いてもらう。</li>
+    <li>スクールに入校してもらう。</li>
+</ul>
+
+<h3>6.  ターゲットユーザー</h3>
+<ul>
+<li>動画編集者（既にある程度の収益をあげている中、上級者）。</li>
+<li>中、上級者以上の動画編集者を求めているクライアント企業。</li>
+<li>スクール入校希望の動画編集者（初心者）。</li>
+</ul>
+
+<h3>7.  本サイト制作にあたり工夫した点</h3>
+<ul>
+    <li>ビジネスサイトとして自分が動画編集者になった場合に登録したいと思えるサイトを意識して作成。
+    </li>
+    <li>極力奇をてらったデザインにならないよう注意しながらも、自分のオリジナリティーを消さずにビジネスサイトを意識して作成。
+    </li>
+    <li>デザインを奇抜ながらも、メニューボタン等できる限り分かりやすく実装。</li>
+</ul>
+
+<h3>8. 制作期間</h3>
+<ul>
+    <li>約２週間。</li>
+</ul>
+
+<h3>9. 使用可能なソフト・エディタ―</h3>
+<ul>
+    <li>Adobe Illustrator 2022 2023</li>
+    <li>Adobe Photoshop 2022 2023</li>
+    <li>Adobe Dreamweaver 2021 2022</li>
+    <li>Microsoft Visual Studio Code</li>
+    <li>WordPress 最新版</li>
+    <li>Adobe Premiere pro 2023(独学)</li>
+</ul>
+
+<h3>10. 主に自分ができること</h3>
+<ul>
+    <li>MOSのWord・Excel・PowerPoint・Outlook資格取得済み及び書類作成。</li>
+    <li>Photoshopを使用した画像の加工。</li>
+    <li>illustratorを使用したデザイン。</li>
+    <li>HTML、CSS、JavaScrip、jQueryの基礎知識があり、コーディング実装可能。</li>
+    <li>Web解析・SEO対策。</li>
+</ul>
+
+</div>
+
+</div>
+</section>
+<footer>
+    <div class="wrapper">
+        <p><small>&copy;2023 crossed talents Inc.</small></p>
+        <a href="#" id="page-top">TOP</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+</body>
+</html>

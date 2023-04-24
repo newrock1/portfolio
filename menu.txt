@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>CROSSED TALENTS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <Link href="css/special.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <header class="page-header">
+    <h1 class="logoBox"><a href="index.html"><img class="logo"src="images/logo.jpg"
+    alt="ロゴ" > </a><span>Crossed Talents　～交差する才能～</span></h1>
+
+    <nav>
+    <ul class="main-nav">
+    <li><a href="intro.html">INTRO</a></li>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="company.html">COMPANY</a></li>
+    <li><a href="menu.html">MENU</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a href="school.html">SCHOOL</a></li>
+    </ul>
+    </nav>
+</header>
+
+<div class="hamburger" id="open_nav">
+    <img src="images/hamburger.png" alt="">
+</div>
+</div>
+
+<nav id="nav">
+
+    <div class="logo2">
+    
+        <img src="images/logo.jpg" alt="">
+        <div class="botan">
+            <ul>
+                <li><a href="intro.html"><span>INTRO</span></a></li>
+                <li><a href="index.html"><span>HOME</span></a></li>
+                <li><a href="company.html"><span>COMPANY</span></a></li>
+                <li><a href="menu.html"><span>MENU</span></a></li>
+                <li><a href="contact.html"><span>CONTACT</span></a></li>
+                <li><a href="school.html"><span>SCHOOL</span></a></li>
+            </div>
+    
+    </ul>
+    </nav>
+
+<div class="audio">
+    <audio controls>
+    <source src="images/audio/midnight eve.mp3" type="audio/mp3">
+    </audio>
+    <p>『midnight eve』<span></span></p>
+    </div>
+ 
+<section class="squall">
+    <h1>～CROSSED<br>
+          TALENTS～</h1>
+<h2>&#x2020;構成・撮影・編集、全ておまかせ!!&#x2020;<br>CROSSED TALENTSが選ばれる理由</h2>
+    
+    <div class="suuji">
+    <div>
+    <img src="images/menu/01.jpg" alt="数字"> 
+        <div>
+            <h3>『選りすぐりのプロ動画クリエイターが制作』</h3>
+            <p>プロダクションから独立した優秀なクリエイターが登録し、<br>CrossedTalents事務局でも面談等を通し、選りすぐりのクリエイターをご提案。</p>
+        </div>
+    </div>
+
+    <div>
+    <img src="images/menu/02.jpg" alt="数字">
+        <div> 
+            <h3>『最短即日発注可能なので、タイトなスケジュールにも対応』</h3>
+           <p>多数のクリエイターが登録するcrossed talentsだから、数時間でクリエイターからの提案が集まり、<br>
+            最短即日クリエイターが見つかり、制作可能。</p>
+        </div>
+   </div>
+
+    <div>
+    <img src="images/menu/03.jpg" alt="数字">
+         <div> 
+          <h3>『クリエイターに直接発注可能！！数万円からの依頼も可能』</h3>
+          <p>代理店やプロダクションから仕事を請けるクリエイターへ直接依頼可能なので、<br>
+            相場の半額以下等で依頼することが可能。</p>
+        </div>
+    </div>
+         </div>
+   
+    <section class="step3h2">
+        <h2>『4ステップで動画制作』</h2>
+       
+    <div class="step3box">
+
+        <div class="step3">
+            <h3 class="step3title">STEP.1</h3>
+            <img src="images/menu/irai.jpg" alt="依頼"> 
+            <p>・依頼を募集</p>
+        </div><!-- step3 -->
+
+
+        <div class="step3">
+            <h3 class="step3title">STEP.2</h3>
+            <img src="images/menu/mitsumori.jpg"alt="見積">
+            <p>・提案・見積が集まる</p>
+        </div><!-- step3 -->
+
+        
+        <div class="step3">
+             <h3 class="step3title">STEP.3</h3>
+             <img src="images/menu/dougaseisaku.jpg" alt="マッチング">
+            <p>・最適なクリエイターとマッチングして動画制作</p>
+        </div><!-- step3 -->
+
+        <div class="step3">
+            <h3 class="step3title">STEP.4</h3>
+            <img src="images/menu/nouhin.jpg" alt="納品">
+            <div class="nouhin">『納品』Finish!!</div>
+
+        </div><!-- step3 -->
+    </div><!-- step3box -->
+
+        <div class="moushikomi">
+            <p>☆最短３０秒で簡単お申込み</p>
+        </div>
+
+<div class="moushikomi2">
+    <p><a href="contact.html">
+        今すぐ無料で申込み &gt;</a></p>
+</div>
+
+</div>
+</section>
+<footer>
+    <div class="wrapper">
+        <p><small>&copy;2023 crossed talents Inc.</small></p>
+        <a href="#" id="page-top">TOP</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

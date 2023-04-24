@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>CROSSED TALENTS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <Link href="css/special.css" rel="stylesheet">
+
+</head>
+<body>
+
+ <div class="container">
+    <header class="page-header">
+        <h1 class="logoBox"><a href="index.html"><img class="logo"src="images/logo.jpg"
+                alt="ロゴ" > </a><span>
+            Crossed Talents　～交差する才能～</span></h1>
+
+    <nav>
+    <ul class="main-nav">
+        <li><a href="intro.html">INTRO</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="school.html">SCHOOL</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="hamburger" id="open_nav">
+    <img src="images/hamburger.png" alt="">
+</div>
+</div>
+
+<nav id="nav">
+
+    <div class="logo2">
+    
+        <img src="images/logo.jpg" alt="">
+        <div class="botan">
+            <ul>
+                <li><a href="intro.html"><span>INTRO</span></a></li>
+                <li><a href="index.html"><span>HOME</span></a></li>
+                <li><a href="company.html"><span>COMPANY</span></a></li>
+                <li><a href="menu.html"><span>MENU</span></a></li>
+                <li><a href="contact.html"><span>CONTACT</span></a></li>
+                <li><a href="school.html"><span>SCHOOL</span></a></li>
+            </div>
+    </ul>
+    </nav>
+
+</head>
+<body>
+
+<div class="audio">
+    <audio controls>
+    <source src="images/audio/bang the beat.mp3" type="audio/mp3">
+    </audio>
+    <p><span>『bang the beat』</span></p>
+    </div>
+
+<div class="jiyuu">
+
+   <div class="fuchidori"> 
+    <h2>Crossed Talents</h2></div>
+    
+    <div class="kaigyou">
+    <p>	<span>『</span>動画編集<span>』</span>で、<br>
+    </div>
+
+    <div class="kaigyou2">
+
+        自由人としての人生を実現させよう！！<br>
+         <span>『</span>動画編集<span>』</span>は人生の可能性を<span>『</span>無限<span>』</span>に広げる。</p>
+        </div>
+    
+        <div class="kaigyou3">
+    <p><span>『</span>CROSSED TALENTS<span>』</span>
+        
+    <br>で学べる３つのマストスキル</p>
+</div>
+
+<div class="fuchidori2">
+    <p>今すぐ<span>CROSSED TALENTS</span>で</div>
+<div class="fuchidori3">
+        動画編集を学ぼう！！</p>
+    </div>
+</div>
+
+<div class="sukiru">
+
+<div class="sukirugazou">
+ <figure>
+    <img src="images/school/pc.jpg" alt="PC">
+ <figcaption>
+    動画編集スキル
+ </figcaption>
+ </figure>
+
+ <p>YouTubeに特化した動画編集スキルが習得可能。</p>
+ <p>効果的なテロップの入れ方や画像の挿入方法、動画を見やすくするためのカットの技術など。</p><p>YouTubeの編集をするにあたって必要なノウハウを全て網羅。</p>
+
+</div>
+
+<div class="sukirugazou">
+<figure>
+    <img src="images/school/talkskill.jpg" alt="打ち合わせ">
+ <figcaption>
+    営業スキル
+ </figcaption>
+ </figure>
+
+ <p>動画編集を仕事にするための正しい営業法を習得。</p><p>具体的には、営業先の探し方や営業文の作り方、発注者への提案の仕方など。</p><p>営業に特化した知識を学ぶことで、安定的に仕事が受注できる動画編集者を目指す。
+</p>
+</div>
+
+<div class="sukirugazou">
+<figure>
+    <img src="images/school/kuraianto.jpg" alt="クライアントワークスキル">
+ <figcaption>
+    クライアントワークスキル
+ </figcaption>
+ </figure>
+
+ <p>案件受注後に必要なビジネススキルもカバー。</p>
+ 
+ <ul>
+    <li>動画編集の業務フローや請求書発行の仕方。</li>
+    <li>ヒアリングの仕方。</li>
+    <li>クライアントとのコミュニケーション方法なども学習。</li>
+    </ul>
+    
+    <p>案件受注後に迷うことがないよう、クライアントワークをする上で必要な知識が一から身につく。</p>
+
+</div>
+</div>
+
+<div class="moushikomiall">
+
+<div class="moushikomi">
+    <p>☆最短１分で簡単お申込み</p>
+</div>
+
+<div class="moushikomi2">
+<p><a href="images/jiyuunomegami.mp4">
+スクール生として申込み &gt;</a></p>
+</div>
+</div>
+
+</div>
+</section>
+<footer>
+    <div class="wrapper">
+        <p><small>&copy;2023 crossed talents Inc.</small></p>
+        <a href="#" id="page-top">TOP</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+</body>
+</html>

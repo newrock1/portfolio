@@ -1,0 +1,716 @@
+@charset "UTF-8";
+
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    background: linear-gradient(#000000, #ff0000);
+    border-width: 1px;
+    border-style: none;
+    margin: auto 0; 
+    height: auto;
+}   
+
+.logo{
+    width: 150px; 
+    height: 150px;
+    float: left;
+    align-items: center;
+    border-radius: 50%;  
+    width:  180px;       
+    height: 180px;       
+    padding-top: -150px;
+}
+
+.logo:hover {
+    transform: scale(1.10);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Yellowtail', cursive;
+    text-align:center;
+    padding:20px 0;
+    text-shadow: -20px -20px 5px #ff0000,20px 20px 5px #000000;
+}
+
+h1.logoBox{
+    margin-top: 0;
+}
+
+.page-header{
+    flex-grow: 1;
+}
+
+.main-nav {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.main-nav li{  
+    background: #000;
+    width: 195px;
+    text-align: center;
+}
+
+.main-nav li:hover {
+    background-color: white;
+    transform: scale(1.15);
+    transform: translate(0, -10px);
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+#icatch img{
+    width:1024px; 
+    height: 547px;
+    text-align:center; 
+    margin:0 auto;
+}
+
+.kakudai{
+    transition-duration: 1s;
+}
+
+.kakudai:hover {
+    transform: scale(0.8,0.8);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 35px;
+}
+
+#icatch ul{
+    width: 660px;
+    margin: 100px  auto 0 auto;
+}
+
+#icatch ul li{
+    font-size: 25px;
+    color: #ff0000;
+    list-style-type:disc;
+    margin-left:20px;
+    list-style-position: inside;
+}
+
+#icatch p{
+    margin: 100px auto 0 auto;
+    color: rgb(255, 0, 0);
+    background-color: #000000;
+    background-size: 1000px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 891px;
+    height: 91px;
+    font-size: 55px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#icatch p:hover {
+    background-color: rgb(8, 0, 255);
+    transform: scale(1.15);
+}
+
+#icatch p a{
+    text-decoration:none;
+    color: #ff0000;
+}
+
+section h2{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.needs{
+    font-size: 25px;
+    text-align: justify;
+    position: relative;
+    margin: 2em auto;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+
+.needs .boxtitle {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #ffffff;
+    color: #95ccff;
+    font-weight: bold;
+}
+
+.needs p {
+    margin: 0; 
+    padding: 0;
+}
+
+.needsBox{
+    display:flex;
+    gap:3%;
+    justify-content: space-between;
+    margin: auto;
+    width: 890px;
+}
+
+.yajirushi img{
+    font-size: 300px;
+}
+
+.yajirushi p{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center
+}
+
+.drone {
+text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 199, 199);
+    height: 50px;
+}
+
+footer p{
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.kaisha h1{
+    font-size: 40px;
+    color: #000;
+    font-family: serif;
+}
+
+.kaisha table {
+    width: 51%;
+    margin:auto
+}
+
+.kaisha table th,.kaisha table td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align:left;
+}
+
+.kaisha table th {
+    font-weight: bold;
+    background-color: #dedede; 
+    width: 30%;
+}
+
+.kaisha table td {
+    width: 70%;
+}
+
+@media screen and (max-width: 767px) {
+    .kaisha,
+    .kaisha tr,
+    .kaisha td,
+    .kaisha th {display:block;}
+    .kaisha th {width:auto;}
+    }
+
+.map{
+    width: 365px;
+    height: 300px;
+    text-align:left;
+}
+
+.map iframe{
+    height: 385px;
+    width: 100%;
+    top: 100px;
+    left: 110px;
+    padding: 30px 0;
+    left:  50px;
+    top: 30px;
+}
+
+.boxtitle{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 365px;
+    height: 365px;
+}
+
+.box pre {
+    margin: 0; 
+    padding: 0;
+}
+
+.mapset {
+    display: flex;
+    justify-content: center
+}
+
+.squall h1{
+    text-shadow: -150px -75px 15px #ff0000,150px 75px 15px #7700ff;
+    margin : 10px ;
+    font-size: 200px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalam', cursive;
+    margin: 30px;
+}
+
+.squall h2{
+    font-size: 30px;
+    margin : 10px ;
+}
+
+.suuji>div{
+    display:flex;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.suuji img{
+  margin-right: 50px;
+}
+
+.step3{
+    width: 250px;
+    /* margin-right: 50px; */
+}
+
+.step3h2 h2{
+   color: #000000;
+   font-size: 50px;
+}
+
+.step3title{
+    font-size: 20px;
+    text-align:left
+}
+
+.step3box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.step3 p{
+    font-size: 20px;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.nouhin{
+    font-size: 30px;
+}
+
+.moushikomi p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.moushikomi2 p{
+    font-size: 20px;
+    text-align: center;
+    background-color: #ff5100;
+    background-size: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    transition: 0.3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.moushikomi2 p:hover {
+    background-color: rgb(0, 255, 17);
+    transform: scale(1.15);
+}
+
+.moushikomi2 p a{
+    text-decoration:none;
+    color: #000;
+}
+
+.moushikomiall{
+    margin-top: 100px;
+}
+
+#email{
+    padding: 2em;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button{
+    padding: 2em;
+    width: 559px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    transform: scale(5.15);
+    -webkit-transform: scale(1.2);
+}
+
+.yokobou{
+    border: 1px solid rgb(0, 0, 0);
+    width: 559px;
+    margin: 0 auto 52px;
+}
+
+.touroku{
+    width: 559px;
+    margin: 0 auto 52px;
+    font-size: 25px;
+    border: solid 1.5px #6200ff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.touroku p a{
+    color: #6200ff;
+    text-decoration:none;
+}
+.touroku:hover {
+    transform: scale(5.15);
+    -webkit-transform: scale(1.2);
+}
+
+.roguin p a{
+    text-align: center;
+    color: #6200ff;
+    text-decoration:none;
+} 
+
+.roguin:hover {
+    transform: scale(5.15);
+    -webkit-transform: scale(1.2);
+}
+
+.border-solid {
+    text-align: center;
+    border: solid;
+    margin: 140px auto 140px;
+    width: 700px;       
+    height: 800px;
+}
+
+.contact {
+   width: 960px;
+   margin: 0 auto;
+   padding: 60px 0; 
+  } 
+
+.contact h1{
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+}
+
+.contact p{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.mail p{
+    color: #b6b6b6;
+}
+
+.soushin p{
+    text-align: center;
+}
+
+.all{
+    margin-top: -90px;
+}
+
+.jiyuu{
+    margin-top: 38px;
+    background-image: url(../images/school/jiyuunomegami.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    transition-duration: 1s;
+}
+
+.jiyuu:hover {
+    transform: scale(1.1,1.1);
+    }
+
+.kaigyou{
+    text-align:left;
+    color: #ff0000;
+}
+
+.kaigyou2{
+    text-align:center;
+    font-size: 30px;
+    padding-left: 200px;
+    color: #ff0000;
+}
+
+.kaigyou3{
+    padding-left: 399px;
+    color: #ff0000;
+}
+
+.jiyuugazou{
+    text-align:center;
+    margin-top: 29px;
+}
+
+.fuchidori h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 115px;
+    color: #ff0000;
+    font-family: 'Sassy Frass', cursive;
+    text-shadow: 2px 2px 0 #000,-2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
+    text-align: left;
+    padding-left: 400px;
+}
+
+.jiyuu span{
+    color: #3700ff;
+}
+
+.jiyuu p{
+    font-size: 30px;
+    padding-left: 400px;
+}
+
+.fuchidori2{
+    padding-top: 150px;
+}
+
+.fuchidori2 p{
+    font-size: 35px;
+}
+
+.fuchidori2 p span{
+    font-size: 60px;
+    color: #000;
+    text-shadow: -15px -15px 5px #ff0000,15px 15px 5px #4c00ff;
+}
+
+.fuchidori2 p span:hover,.skinMessageBoard a:hover{
+    font: size 10em;
+    font-weight:bold;
+    color:#000000;
+    text-decoration:underline;
+}
+
+.fuchidori3{
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+    text-shadow: -15px -15px 5px #ff00c3,15px 15px 5px #969696;
+}
+
+.fuchidori3:hover,.skinMessageBoard a:hover{
+    font: size 10em;
+    font-weight:bold;
+    color:#000000;
+    text-decoration:underline;
+}
+
+.sukiru{
+    display: flex;
+    gap:40px;
+}
+
+.sukiru figcaption{
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 23px;
+    border: solid 3px #000000;
+    background-color:#ff0000;
+    height: 55px;
+    width: 290px;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+}
+
+.sukirugazou{
+    width: 25%;
+    position: relative;
+    border: solid;
+    margin-top: 100px;
+}
+
+.sukirugazou figure{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.sukirugazou figure img{
+    width: 100%;
+    height: auto;
+}
+
+.sukirugazou p{
+    font-size: 25px;
+    text-align: justify;
+    width: 94%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.sukirugazou li{
+    font-size: 25px;
+}
+
+.redbox-container{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 200px;
+}
+
+.redbox{
+    width: 250px;
+    height: 80px;
+    background: #ff0000;
+    position: relative;
+}
+
+.redbox p{
+    font-size: 18px;
+    text-align:center;
+    height:60px;
+    line-height:60px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sukiru{
+        display: flex;
+        justify-content: center;
+}
+
+.sukiru.box2{
+        box-sizing: border-box;
+        padding: 40px 80px;
+        justify-content: space-around;
+}
+
+.logoBox span{
+    padding-top: 75px;
+    display: inline-block;
+}
+
+#page-top {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: #ff0000;
+    padding: 0 0 0 35px;
+    border-top: solid 1px;
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+#page-top:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 1px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+    cursor: auto; 
+}
+
+#page-top:hover {
+    background-color: rgb(0, 0, 0);   /* ボタンの表面色をちょっと明るく */
+    border-color: rgb(255, 77, 0);       /* 枠線の色もちょっと明るく */
+    transform: scale(1.2);/* マウスオーバー拡大 */
+    -webkit-transform: scale(1.2);
+ }
+
+.audio{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.audio p{
+    font-size: 30px;
+    color: #000000;
+    margin-top: 5px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.audio span{
+    font-size: 30px;
+    color: #ff0000;
+    font-family: 'Yellowtail', cursive;
+}
+
+.intro h2{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.intro h3{
+    font-size: 25px;
+    padding-left: 30px;
+    text-decoration:underline;
+}
+
+.intro ul{
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
